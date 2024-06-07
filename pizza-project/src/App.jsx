@@ -1,10 +1,19 @@
+import Footer from "./components/footer.jsx";
+import Header from "./components/header.jsx";
+import Menu from "./components/menu.jsx";
 
-function App() {
+// Css module
+import "./index.css";
+
+
+const App = () => {
 
   return (
-    <>
-      <h1>HEllo</h1>
-    </>
+    <div className="container">
+      <Header />
+      <Menu />
+      <Footer />
+    </div>
   )
 }
 
